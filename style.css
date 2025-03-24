@@ -1,38 +1,90 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
 }
 
 header {
   background: #333;
-  color: white;
-  padding: 10px;
+  color: #fff;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul li {
+header .logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
   display: inline;
-  margin-right: 20px;
+  margin: 0 20px;
 }
 
-nav ul li a {
-  color: white;
+header ul li a {
+  color: #fff;
   text-decoration: none;
 }
 
 section {
-  padding: 40px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#hero {
+  background: #007BFF;
+  color: white;
+  padding: 100px 20px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+#about, #experience, #projects, #contact {
+  background: #fff;
   margin: 20px 0;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.experience-card, .project-card {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 footer {
   text-align: center;
-  padding: 10px;
   background: #333;
   color: white;
+  padding: 20px;
 }
