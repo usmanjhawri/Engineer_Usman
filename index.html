@@ -3,72 +3,553 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammad Usman Yousaf - Mechanical Design Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <title>M. Usman Yousaf - Mechanical Design Engineer</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        <a href="#">Engineer Usman</a>
+  <div class="engineering-layout">
+    <header class="engineering-header">
+      <nav class="main-navigation">
+        <div class="logo">Engineer Usman</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="home-page">
+        <div class="hero-section">
+          <div class="blueprint-background">
+            <div class="hero-content">
+              <h1>M. Usman Yousaf</h1>
+              <h2>Mechanical Design Engineer</h2>
+              <p>Specializing in Robotics, Drone Design, and CFD Analysis</p>
+              <div class="hero-cta">
+                <a href="#projects" class="primary-button">View Portfolio</a>
+                <a href="#contact" class="secondary-button">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="featured-projects">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/ugo_robot.svg" alt="UGO Robot">
+              </div>
+              <div class="project-content">
+                <h3>UGO (Un-Attended Genius Operator)</h3>
+                <p>Autonomous robot system designed for industrial applications</p>
+                <div class="project-tags">
+                  <span>Robotics</span>
+                  <span>Automation</span>
+                </div>
+                <a href="#projects" class="view-project">View Details</a>
+              </div>
+            </div>
+            
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/drone_technical.svg" alt="ZenaDrone 2000">
+              </div>
+              <div class="project-content">
+                <h3>ZenaDrone 2000</h3>
+                <p>Advanced drone design with optimized aerodynamics and stability</p>
+                <div class="project-tags">
+                  <span>Drone Design</span>
+                  <span>CFD Analysis</span>
+                </div>
+                <a href="#projects" class="view-project">View Details</a>
+              </div>
+            </div>
+            
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/hybrid_vehicle.svg" alt="MYPRID Hybrid Vehicle">
+              </div>
+              <div class="project-content">
+                <h3>MYPRID (3-Wheeler Hybrid Vehicle)</h3>
+                <p>Innovative hybrid vehicle design with improved fuel efficiency</p>
+                <div class="project-tags">
+                  <span>Hybrid Vehicles</span>
+                  <span>Mechanical Design</span>
+                </div>
+                <a href="#projects" class="view-project">View Details</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills-overview">
+          <h2 class="section-title">Technical Expertise</h2>
+          <div class="skills-container">
+            <div class="skills-chart">
+              <img src="images/skills_radar.svg" alt="Skills radar chart">
+            </div>
+            <div class="skills-list">
+              <div class="skill-category">
+                <h3>CAD Software</h3>
+                <ul>
+                  <li>SolidWorks</li>
+                  <li>AutoCAD</li>
+                  <li>Fusion 360</li>
+                  <li>CATIA</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h3>Simulation Tools</h3>
+                <ul>
+                  <li>ANSYS</li>
+                  <li>SolidWorks Simulation</li>
+                  <li>Fluent</li>
+                  <li>CFD Analysis</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h3>Design Specialties</h3>
+                <ul>
+                  <li>Robotics</li>
+                  <li>Drone Design</li>
+                  <li>Hybrid Vehicles</li>
+                  <li>Mechanical Systems</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="skills-cta">
+            <a href="#skills" class="primary-button">View All Skills</a>
+          </div>
+        </section>
+
+        <section class="experience-timeline">
+          <h2 class="section-title">Professional Experience</h2>
+          <div class="timeline-container">
+            <img src="images/experience_timeline.svg" alt="Experience timeline">
+            <div class="timeline-cta">
+              <a href="#experience" class="primary-button">View Full Experience</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section">
+          <h2 class="section-title">Let's Work Together</h2>
+          <p>Interested in collaborating on a project or hiring me for your team?</p>
+          <a href="#contact" class="primary-button">Get in Touch</a>
+        </section>
+      </section>
+      
+      <!-- About Section -->
+      <section id="about" class="about-page" style="display: none;">
+        <h1 class="section-title">About Me</h1>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I am a mechanical design engineer with expertise in robotics, drone design, and CFD analysis. With a passion for innovation and precision engineering, I've worked on various projects ranging from autonomous robot systems to hybrid vehicles.</p>
+            <p>My approach combines technical expertise with creative problem-solving to deliver efficient and elegant mechanical solutions. I specialize in using advanced CAD software and simulation tools to optimize designs before production.</p>
+            <h2>Education</h2>
+            <ul>
+              <li>Master's in Mechanical Engineering - University of Engineering and Technology</li>
+              <li>Bachelor's in Mechanical Engineering - University of Engineering and Technology</li>
+            </ul>
+            <h2>Publications</h2>
+            <ul>
+              <li>Aerodynamic Analysis of Drone Propeller Designs</li>
+              <li>Efficiency Improvements in Hybrid Vehicle Powertrains</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Skills Section -->
+      <section id="skills" class="skills-page" style="display: none;">
+        <h1 class="section-title">Technical Skills</h1>
+        <div class="skills-content">
+          <div class="skills-category">
+            <h2>CAD Software</h2>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <h3>SolidWorks</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 95%;"></div>
+                </div>
+                <p>Expert level proficiency in mechanical design, assembly, and simulation</p>
+              </div>
+              <div class="skill-item">
+                <h3>AutoCAD</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 90%;"></div>
+                </div>
+                <p>Advanced 2D and 3D technical drawing capabilities</p>
+              </div>
+              <div class="skill-item">
+                <h3>Fusion 360</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 85%;"></div>
+                </div>
+                <p>Proficient in parametric modeling and collaborative design</p>
+              </div>
+              <div class="skill-item">
+                <h3>CATIA</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 80%;"></div>
+                </div>
+                <p>Experienced in surface modeling and complex assemblies</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skills-category">
+            <h2>Simulation Tools</h2>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <h3>ANSYS</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 90%;"></div>
+                </div>
+                <p>Advanced structural and thermal analysis capabilities</p>
+              </div>
+              <div class="skill-item">
+                <h3>SolidWorks Simulation</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 95%;"></div>
+                </div>
+                <p>Expert in FEA and motion studies</p>
+              </div>
+              <div class="skill-item">
+                <h3>Fluent</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 85%;"></div>
+                </div>
+                <p>Proficient in fluid dynamics simulation</p>
+              </div>
+              <div class="skill-item">
+                <h3>CFD Analysis</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 90%;"></div>
+                </div>
+                <p>Advanced aerodynamic and flow analysis expertise</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skills-category">
+            <h2>Design Specialties</h2>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <h3>Robotics</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 95%;"></div>
+                </div>
+                <p>Expert in autonomous system design and robotics mechanisms</p>
+              </div>
+              <div class="skill-item">
+                <h3>Drone Design</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 90%;"></div>
+                </div>
+                <p>Advanced aerodynamics and propulsion system design</p>
+              </div>
+              <div class="skill-item">
+                <h3>Hybrid Vehicles</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 85%;"></div>
+                </div>
+                <p>Proficient in powertrain and chassis design</p>
+              </div>
+              <div class="skill-item">
+                <h3>Mechanical Systems</h3>
+                <div class="skill-level">
+                  <div class="skill-bar" style="width: 95%;"></div>
+                </div>
+                <p>Expert in mechanism design and optimization</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Projects Section -->
+      <section id="projects" class="projects-page" style="display: none;">
+        <h1 class="section-title">Engineering Portfolio</h1>
+        <div class="projects-header">
+          <p>Browse my projects by category or view all</p>
+          <div class="project-filters">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="robotics">Robotics</button>
+            <button class="filter-button" data-filter="drone">Drone Design</button>
+            <button class="filter-button" data-filter="cfd">CFD Analysis</button>
+            <button class="filter-button" data-filter="hybrid">Hybrid Vehicles</button>
+            <button class="filter-button" data-filter="mechanical">Mechanical Design</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card" data-category="robotics">
+            <div class="project-image">
+              <img src="images/ugo_robot.svg" alt="UGO Robot">
+            </div>
+            <div class="project-content">
+              <h3>UGO (Un-Attended Genius Operator)</h3>
+              <p>Autonomous robot system designed for industrial applications</p>
+              <div class="project-tags">
+                <span>Robotics</span>
+                <span>Automation</span>
+              </div>
+              <a href="#" class="view-project">View Details</a>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="drone cfd">
+            <div class="project-image">
+              <img src="images/drone_technical.svg" alt="ZenaDrone 2000">
+            </div>
+            <div class="project-content">
+              <h3>ZenaDrone 2000</h3>
+              <p>Advanced drone design with optimized aerodynamics and stability</p>
+              <div class="project-tags">
+                <span>Drone Design</span>
+                <span>CFD Analysis</span>
+              </div>
+              <a href="#" class="view-project">View Details</a>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="hybrid mechanical">
+            <div class="project-image">
+              <img src="images/hybrid_vehicle.svg" alt="MYPRID Hybrid Vehicle">
+            </div>
+            <div class="project-content">
+              <h3>MYPRID (3-Wheeler Hybrid Vehicle)</h3>
+              <p>Innovative hybrid vehicle design with improved fuel efficiency</p>
+              <div class="project-tags">
+                <span>Hybrid Vehicles</span>
+                <span>Mechanical Design</span>
+              </div>
+              <a href="#" class="view-project">View Details</a>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="mechanical drone">
+            <div class="project-image">
+              <img src="images/propeller_mechanism.svg" alt="Variable Pitch Propeller">
+            </div>
+            <div class="project-content">
+              <h3>Variable Pitch Propeller Mechanism</h3>
+              <p>Advanced propeller design with adjustable pitch for optimal performance</p>
+              <div class="project-tags">
+                <span>Mechanical Design</span>
+                <span>Drone Components</span>
+              </div>
+              <a href="#" class="view-project">View Details</a>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="cfd mechanical">
+            <div class="project-image">
+              <img src="images/f1_spoiler_cfd.svg" alt="F1 Car Spoiler">
+            </div>
+            <div class="project-content">
+              <h3>Formula 1 Car Spoiler Design</h3>
+              <p>Aerodynamic optimization of racing car spoiler using CFD analysis</p>
+              <div class="project-tags">
+                <span>CFD Analysis</span>
+                <span>Automotive Design</span>
+              </div>
+              <a href="#" class="view-project">View Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Experience Section -->
+      <section id="experience" class="experience-page" style="display: none;">
+        <h1 class="section-title">Work Experience</h1>
+        <div class="experience-timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2022 - Present</div>
+            <div class="timeline-content">
+              <h3>Senior Mechanical Design Engineer</h3>
+              <h4>Innovative Engineering Solutions</h4>
+              <p>Lead mechanical engineer for autonomous robot systems and drone design projects. Responsible for conceptual design, prototyping, and production implementation.</p>
+              <ul>
+                <li>Designed the UGO autonomous robot system, increasing industrial efficiency by 35%</li>
+                <li>Led the development of ZenaDrone 2000, optimizing aerodynamics and flight stability</li>
+                <li>Implemented CFD analysis workflows, reducing design iteration time by 40%</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2019 - 2022</div>
+            <div class="timeline-content">
+              <h3>Mechanical Design Engineer</h3>
+              <h4>Advanced Mobility Technologies</h4>
+              <p>Specialized in hybrid vehicle design and powertrain optimization. Collaborated with cross-functional teams to develop innovative transportation solutions.</p>
+              <ul>
+                <li>Designed the MYPRID 3-wheeler hybrid vehicle, achieving 30% better fuel efficiency</li>
+                <li>Developed variable pitch propeller mechanisms for improved drone performance</li>
+                <li>Created simulation models for mechanical systems, reducing physical testing needs</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2017 - 2019</div>
+            <div class="timeline-content">
+              <h3>Mechanical Engineer</h3>
+              <h4>Precision Engineering Corp</h4>
+              <p>Focused on mechanical component design and analysis. Specialized in reverse engineering and design optimization.</p>
+              <ul>
+                <li>Performed CFD analysis for Formula 1 car spoiler design, improving downforce by 25%</li>
+                <li>Reverse engineered mechanical components for improved performance</li>
+                <li>Developed technical documentation and manufacturing specifications</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Contact Section -->
+      <section id="contact" class="contact-page" style="display: none;">
+        <h1 class="section-title">Contact Me</h1>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>Interested in working together or have questions about my portfolio? Feel free to reach out!</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <h3>Email</h3>
+                <p>contact@engineer-usman.com</p>
+              </div>
+              <div class="contact-item">
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/usman-yousaf</p>
+              </div>
+              <div class="contact-item">
+                <h3>Location</h3>
+                <p>Lahore, Pakistan</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="primary-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="engineering-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: contact@engineer-usman.com</p>
+          <p>LinkedIn: linkedin.com/in/usman-yousaf</p>
+        </div>
+        <div class="footer-section">
+          <h3>Professional Links</h3>
+          <ul>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Hire Me</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <p>© 2025 M. Usman Yousaf - Mechanical Design Engineer</p>
+        </div>
       </div>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    </footer>
+  </div>
 
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Hi, I'm Muhammad Usman Yousaf</h1>
-      <p>Mechanical Design Engineer with expertise in automotive, robotics, and aerospace industries.</p>
-    </div>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am passionate about mechanical design and have a track record of turning complex concepts into market-ready products.</p>
-  </section>
-
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <div class="experience-card">
-      <h3>Research Engineer - KTU</h3>
-      <p>Designing bio-inspired flapping wing systems and integrating advanced sensors into micro aerial robots.</p>
-    </div>
-    <div class="experience-card">
-      <h3>CAD Design Engineer - Nuwatt Technovation</h3>
-      <p>Creating 3D models and performing comprehensive design analysis to ensure structural integrity.</p>
-    </div>
-    <!-- Add more experiences as needed -->
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Project 1</h3>
-      <p>Detailed project description...</p>
-    </div>
-    <div class="project-card">
-      <h3>Project 2</h3>
-      <p>Detailed project description...</p>
-    </div>
-    <!-- Add more projects as needed -->
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: usmanjhawri@gmail.com</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Muhammad Usman Yousaf</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <script>
+    // Simple navigation script
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all navigation links
+      const navLinks = document.querySelectorAll('.nav-links a');
+      
+      // Add click event to each link
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          // Get the target section id
+          const targetId = this.getAttribute('href').substring(1);
+          
+          // Hide all sections
+          document.querySelectorAll('main > section').forEach(section => {
+            section.style.display = 'none';
+          });
+          
+          // Show the target section
+          document.getElementById(targetId).style.display = 'block';
+        });
+      });
+      
+      // Project filtering
+      const filterButtons = document.querySelectorAll('.filter-button');
+      const projectCards = document.querySelectorAll('.project-card');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          // Get filter value
+          const filter = this.getAttribute('data-filter');
+          
+          // Show/hide projects based on filter
+          projectCards.forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-category').includes(filter)) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+      
+      // Form submission
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          alert('Thank you for your message! I will get back to you soon.');
+          contactForm.reset();
+        });
+      }
+      
+      // Show home section by default
+      document.getElementById('home').style.display = 'block';
+    });
+  </script>
 </body>
 </html>
